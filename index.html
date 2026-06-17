@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Piyal Tambuli</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background glow -->
+  <div class="bg-glow"></div>
+
+  <!-- Main glass card -->
+  <div class="glass-card">
+    <div class="inner-layer">
+
+      <!-- SECTION: Name + Contact + Avatar -->
+      <div class="section-name">
+        <div class="name-title">
+          <h1>PIYAL TAMBULI</h1>
+          <div class="tagline">✦ full‑stack · python · databases</div>
+          <div class="contact-links">
+            <a href="https://github.com/Piyal9" target="_blank" class="pill pill-github">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/piyal-tambuli-98b88b328" target="_blank" class="pill pill-linkedin">
+              <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+            <a href="mailto:piyaltambuli7@gmail.com" class="pill pill-email">
+              <i class="fas fa-envelope"></i> Gmail
+            </a>
+          </div>
+        </div>
+        <div class="avatar-wrapper">
+          <div class="avatar-ring">
+            <div class="avatar-hole" id="avatarHole" title="Click to upload astronaut image">
+              <img id="avatarImg" src="" alt="Astronaut Avatar" class="astronaut-img" style="display:none;" />
+              <div id="avatarPlaceholder" class="avatar-placeholder">
+                <i class="fas fa-user-astronaut"></i> Upload<br />Image
+              </div>
+            </div>
+          </div>
+          <input type="file" id="avatarInput" accept="image/*" />
+        </div>
+      </div>
+
+      <!-- SECTION: Projects (first) -->
+      <div class="section-projects">
+        <div class="section-title"><span>🚀</span> Projects</div>
+        <div class="swiper projects-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-card" data-tilt data-tilt-scale="1.02" data-tilt-max="8" data-tilt-speed="400">
+                <div class="card-shine"></div>
+                <div class="card-shine-secondary"></div>
+                <div class="project-title"><i class="fas fa-file-invoice"></i> Invoice Extractor</div>
+                <div class="project-desc">Image‑to‑JSON text extractor · Python + OCR</div>
+                <span class="tech-tag">#OCR · #json · #flask</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-card" data-tilt data-tilt-scale="1.02" data-tilt-max="8" data-tilt-speed="400">
+                <div class="card-shine"></div>
+                <div class="card-shine-secondary"></div>
+                <div class="project-title"><i class="fas fa-globe"></i> Full‑Stack Web App</div>
+                <div class="project-desc">2 full‑stack apps · React + Node + MongoDB</div>
+                <span class="tech-tag">#react · #express · #Mongo</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-card" data-tilt data-tilt-scale="1.02" data-tilt-max="8" data-tilt-speed="400">
+                <div class="card-shine"></div>
+                <div class="card-shine-secondary"></div>
+                <div class="project-title"><i class="fas fa-robot"></i> HR Chatbot</div>
+                <div class="project-desc">AI chatbot · payroll, attendance, salary</div>
+                <span class="tech-tag">#JS · #python · #RAG</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-card" data-tilt data-tilt-scale="1.02" data-tilt-max="8" data-tilt-speed="400">
+                <div class="card-shine"></div>
+                <div class="card-shine-secondary"></div>
+                <div class="project-title"><i class="fas fa-database"></i> Query Executor</div>
+                <div class="project-desc">Spreadsheet → SQL → output · Google Sheets API</div>
+                <span class="tech-tag">#sheets · #sql · #python</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+      <!-- SECTION: Services (second) -->
+      <div class="section-services">
+        <div class="section-title"><span>⚡</span> Services</div>
+        <div class="service-grid">
+          <div class="service-item"> Web Design <span>UI/UX · React</span></div>
+          <div class="service-item"> Web Apps <span>full‑stack</span></div>
+          <div class="service-item"> Python Projects <span>automation · AI</span></div>
+          <div class="service-item"> Databases <span>SQL · Mongo</span></div>
+        </div>
+        <div class="badge-wrap">
+          <span class="accent-badge">✨ Fast Work</span>
+          <span class="accent-badge">🌈 Creative Thinking</span>
+          <span class="accent-badge">🧊 Solid Structure</span>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-note">
+        <span>✨ Piyal Tambuli</span>
+        <span style="display: flex; gap: 0.8rem;">
+          <span>🐍</span><span>⚡</span><span>🧊</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Vanilla Tilt -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
