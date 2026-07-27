@@ -323,6 +323,8 @@ body {
 .pc-pink  { background: linear-gradient(145deg, rgba(255,190,215,0.35), rgba(255,215,230,0.18)); }
 .pc-teal  { background: linear-gradient(145deg, rgba(160,230,205,0.35), rgba(190,245,225,0.18)); }
 .pc-amber { background: linear-gradient(145deg, rgba(255,220,150,0.35), rgba(255,235,180,0.18)); }
+.pc-purple { background: linear-gradient(145deg, rgba(210,190,255,0.35), rgba(225,210,255,0.18)); }
+.pc-cyan  { background: linear-gradient(145deg, rgba(160,235,235,0.35), rgba(190,245,245,0.18)); }
 
 .project-card:hover {
   box-shadow: 0 30px 60px -12px rgba(0,30,60,0.25);
