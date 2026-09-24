@@ -11,6 +11,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .pc-arrow-link {
+      color: inherit;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
@@ -72,12 +82,14 @@
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-num" data-count="3">0</span>
+          <span class="stat-num" data-count="7">0</span>
           <span class="stat-label">Tech Stacks</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-num" data-count="100">0</span><span class="stat-suffix">%</span>
+          <div>
+            <span class="stat-num" data-count="100">0</span><span class="stat-suffix">%</span>
+          </div>
           <span class="stat-label">Commitment</span>
         </div>
         <div class="stat-divider"></div>
@@ -121,7 +133,6 @@
       <div class="section-projects">
         <div class="section-header-row">
           <div class="section-title"><span>🚀</span> Projects</div>
-          <div class="swipe-hint"><i class="fas fa-hand-pointer"></i> Drag to explore</div>
         </div>
         <div class="swiper projects-swiper">
           <div class="swiper-wrapper">
@@ -135,13 +146,15 @@
                 <div class="project-title">Invoice Extractor</div>
                 <div class="project-desc">Image‑to‑JSON pipeline that reads scanned invoices, extracts structured data using OCR, and outputs clean JSON ready for any database.</div>
                 <div class="tech-row">
-                  <span class="tech-tag">OCR</span>
+                  <span class="tech-tag">Python</span>
                   <span class="tech-tag">Flask</span>
                   <span class="tech-tag">JSON</span>
+                  <span class="tech-tag">MS SQL SERVER</span>
+                  <span class="tech-tag">OCR</span>
                 </div>
                 <div class="pc-footer">
                   <span class="pc-status pc-status-done">Shipped</span>
-                  <i class="fas fa-arrow-right pc-arrow"></i>
+                  <a href="https://github.com/Piyal9/Invoice-Extractor" target="_blank" class="pc-arrow-link"><i class="fas fa-arrow-right pc-arrow"></i></a>
                 </div>
               </div>
             </div>
@@ -156,12 +169,13 @@
                 <div class="project-desc">Two production‑grade web applications built with React on the front, Express on the back, and MongoDB powering real‑time data sync.</div>
                 <div class="tech-row">
                   <span class="tech-tag">React</span>
-                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">Ms Sql Server / MY Sql</span>
                   <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Node.js</span>
                 </div>
                 <div class="pc-footer">
                   <span class="pc-status pc-status-done">Shipped</span>
-                  <i class="fas fa-arrow-right pc-arrow"></i>
+                  <a href="https://github.com/Piyal9/Web-App-Full-Stack" target="_blank" class="pc-arrow-link"><i class="fas fa-arrow-right pc-arrow"></i></a>
                 </div>
               </div>
             </div>
@@ -177,11 +191,11 @@
                 <div class="tech-row">
                   <span class="tech-tag">JS</span>
                   <span class="tech-tag">Python</span>
-                  <span class="tech-tag">RAG</span>
+                  <span class="tech-tag">Ms SQL Server</span>
                 </div>
                 <div class="pc-footer">
                   <span class="pc-status pc-status-done">Shipped</span>
-                  <i class="fas fa-arrow-right pc-arrow"></i>
+                  <a href="https://github.com/Piyal9/Hr-Chatbot" target="_blank" class="pc-arrow-link"><i class="fas fa-arrow-right pc-arrow"></i></a>
                 </div>
               </div>
             </div>
@@ -201,7 +215,7 @@
                 </div>
                 <div class="pc-footer">
                   <span class="pc-status pc-status-done">Shipped</span>
-                  <i class="fas fa-arrow-right pc-arrow"></i>
+                  <a href="https://github.com/Piyal9/Sheet-To-SQL-Query-Executer" target="_blank" class="pc-arrow-link"><i class="fas fa-arrow-right pc-arrow"></i></a>
                 </div>
               </div>
             </div>
@@ -212,16 +226,16 @@
                 <div class="pc-glow"></div>
                 <div class="pc-number">05</div>
                 <div class="pc-icon-wrap"><i class="fas fa-user-check"></i></div>
-                <div class="project-title">Attendance App</div>
-                <div class="project-desc">Web‑based attendance tracker that logs check‑ins in real time, keeps a clean history per user, and syncs everything to a central database.</div>
+                <div class="project-title">HRMS System</div>
+                <div class="project-desc">Web‑based attendance &bull; payroll &bull; Leave Management & tracker that logs check‑ins in real time, keeps a clean history per user, and syncs everything to a central database.</div>
                 <div class="tech-row">
                   <span class="tech-tag">React</span>
                   <span class="tech-tag">Node.js</span>
-                  <span class="tech-tag">MS SQL SERVER/MY SQL</span>
+                  <span class="tech-tag">MS SQL SERVER / MY SQL / Firebase </span>
                 </div>
                 <div class="pc-footer">
                   <span class="pc-status pc-status-done">Shipped</span>
-                  <i class="fas fa-arrow-right pc-arrow"></i>
+                  <a href="https://github.com/Piyal9/Infinetix-project-zip" target="_blank" class="pc-arrow-link"><i class="fas fa-arrow-right pc-arrow"></i></a>
                 </div>
               </div>
             </div>
@@ -232,18 +246,18 @@
                 <div class="pc-glow"></div>
                 <div class="pc-number">06</div>
                 <div class="pc-icon-wrap"><i class="fas fa-window-restore"></i></div>
-                <div class="project-title">Websites</div>
-                <div class="project-desc">Custom‑built, responsive websites — from landing pages to full portfolios — designed and coded end‑to‑end with clean UI/UX.</div>
+                <div class="project-title">Bharat-Explore</div>
+                <div class="project-desc">A WebApp Made for the Tourist Visiting INDIA &bull; Ministry of India &bull; Government of India </div>
                 <div class="tech-row">
                   <span class="tech-tag">HTML</span>
                   <span class="tech-tag">CSS</span>
                   <span class="tech-tag">JavaScript</span>
-                  <span class="tech-tag">react.js</span>
-                  <span class="tech-tag">Firebase</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">SuperBase</span>
                 </div>
                 <div class="pc-footer">
-                  <span class="pc-status pc-status-done">Shipped</span>
-                  <i class="fas fa-arrow-right pc-arrow"></i>
+                  <span class="pc-status pc-status-done">Deployed</span>
+                  <a href="https://bharat-explore-live.vercel.app/" target="_blank" class="pc-arrow-link"><i class="fas fa-arrow-right pc-arrow"></i></a>
                 </div>
               </div>
             </div>
@@ -270,7 +284,7 @@
             <div class="si-icon"><i class="fas fa-layer-group"></i></div>
             <div class="si-text">
               <div class="si-name">Web Apps</div>
-              <div class="si-sub">Full‑stack · REST APIs</div>
+              <div class="si-sub">Full‑stack · React.js</div>
             </div>
           </div>
           <div class="service-item si-teal">
@@ -284,7 +298,7 @@
             <div class="si-icon"><i class="fas fa-server"></i></div>
             <div class="si-text">
               <div class="si-name">Databases</div>
-              <div class="si-sub">SQL · MongoDB · Design</div>
+              <div class="si-sub">Ms SQL Server · MongoDB · Firebase · MYSQL</div>
             </div>
           </div>
         </div>
